@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.placarContainer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placarContainer__box{
+  margin: 0 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.placarContainer__box__title{
+  font-size: 1.5vw;
+  color: gray;
+}
+.placarContainer__box__team{
+  font-size: 2.5vw;
+  color: #222;
+}
+.placarContainer__box__goals{
+  font-size: 4vw;
+  color: #222;
+}
+.placarContainer__partida{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.placarContainer__partida__title{
+  font-size: 2vw;
+  color: gray;
+}
+.placarContainer__partida__info{
+  font-size: 1.5vw;
+  color: grey;
+}
